@@ -1,0 +1,776 @@
+<html class=" js flexbox canvas canvastext webgl no-touch geolocation postmessage websqldatabase indexeddb hashchange history draganddrop websockets rgba hsla multiplebgs backgroundsize borderimage borderradius boxshadow textshadow opacity cssanimations csscolumns cssgradients cssreflections csstransforms csstransforms3d csstransitions fontface generatedcontent video audio localstorage sessionstorage webworkers applicationcache svg inlinesvg smil svgclippaths" lang="zxx" style=""><!--<![endif]--><head>
+    <!--====== USEFULL META ======-->
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+    <meta name="description" content="VE RESUME is a simple CV / Resume website template">
+    <meta name="keywords" content="CV, Resume HTML5 Template, Cv HTML5 Template, Cv Template, Resume Template">
+    <meta name="author" content="BDEXPERT">
+
+    <!--====== TITLE TAG ======-->
+    <title>Resume</title>
+
+    <!--====== FAVICON ICON =======-->
+    <link rel="shortcut icon" type="image/ico" href="img/favicon.png">
+
+    <!--====== STYLESHEETS ======-->
+    <link rel="stylesheet" href="css/normalize.css">
+    <link rel="stylesheet" href="css/animate.css">
+    <link rel="stylesheet" href="css/owl.carousel.css">
+    <link rel="stylesheet" href="css/magnific-popup.css">
+    <link href="css/bootstrap.min.css" rel="stylesheet">
+    <link href="css/icofont.css" rel="stylesheet">
+
+    <!--====== MAIN STYLESHEETS ======-->
+    <link href="style.css" rel="stylesheet">
+    <link href="css/responsive.css" rel="stylesheet">
+
+
+    <!--===== ALL COLORS CSS HERE USE YOUR PREFRRED ANY COLOR FROM HERE, BY UNCOMMENT LINK TAG ======-->
+    <link rel="stylesheet" href="css/colors/yellow.css" title="yellow">
+
+    <script src="js/modernizr-2.8.3.min.js"></script>
+    <!--[if lt IE 9]>
+        <script src="//oss.maxcdn.com/html5shiv/3.7.2/html5shiv.min.js"></script>
+        <script src="//oss.maxcdn.com/respond/1.4.2/respond.min.js"></script>
+        <![endif]-->
+</head>
+
+<body>
+
+    <!--[if lt IE 8]>
+        <p class="browserupgrade">You are using an <strong>outdated</strong> browser. Please <a href="http://browsehappy.com/">upgrade your browser</a> to improve your experience.</p>
+    <![endif]-->
+
+    <!--- PRELOADER -->
+    <div class="preeloader" style="display: none;">
+        <div class="preloader-spinner"></div>
+    </div>
+
+    <!--SCROLL TO TOP-->
+    <a href="#home" class="scrolltotop" style="display: inline; bottom: 20px;"><i class="icofont icofont-bubble-up"></i></a>
+
+
+    <!--PUSH MENU AREA-->
+    <div class="push-menu-and-content" style="overflow: hidden; outline: none;" tabindex="0">
+        <div class="push-menu-close"><i class="icofont icofont-close"></i></div>
+        <div class="push-menu-logo">
+            <a href="#home"><img src="img/logo.png" alt=""></a>
+        </div>
+        <div class="search-bar">
+            <form action="#" method="get">
+                <input type="search" name="search" id="search" placeholder="Search Here..">
+                <button type="submit"><i class="icofont icofont-search"></i></button>
+            </form>
+        </div>
+        <div class="push-menu">
+            <ul>
+                <li class="active"><a href="#home">home <i class="icofont icofont-bubble-right"></i></a></li>
+                <li><a href="#about">About Me <i class="icofont icofont-bubble-right"></i></a></li>
+                <li><a href="#education">Education <i class="icofont icofont-bubble-right"></i></a></li>
+                <li><a href="#work">Experience <i class="icofont icofont-bubble-right"></i></a></li>
+                <li><a href="#portfolio">Portfolio <i class="icofont icofont-bubble-right"></i></a></li>
+                <li><a href="#blog">Blog <i class="icofont icofont-bubble-right"></i></a></li>
+                <li><a href="#contact">Contact <i class="icofont icofont-bubble-right"></i></a></li>
+            </ul>
+        </div>
+        <div class="author-img-and-about-content">
+            <img src="img/about/author-small.jpg" alt="">
+            <div class="about-autor">
+                <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit. Quaerat quod vel vero neque laborum, aspernatur quas quis rerum, placeat ipsa!</p>
+                <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit. Quaerat quod vel vero neque laborum, aspernatur quas quis rerum, placeat ipsa!</p>
+            </div>
+        </div>
+        <div class="author-sign">
+            <img src="img/about/about_sign_white.png" alt="">
+        </div>
+        <div class="author-social-bookmark">
+            <ul>
+                <li><a href="#"><i class="icofont icofont-social-facebook"></i></a></li>
+                <li><a href="#"><i class="icofont icofont-social-twitter"></i></a></li>
+                <li><a href="#"><i class="icofont icofont-social-pinterest"></i></a></li>
+                <li><a href="#"><i class="icofont icofont-social-google-plus"></i></a></li>
+                <li><a href="#"><i class="icofont icofont-social-dribbble"></i></a></li>
+                <li><a href="#"><i class="icofont icofont-social-behance"></i></a></li>
+            </ul>
+        </div>
+    </div>
+    <!--PUSH MENU AREA END-->
+
+    <!--START TOP AREA-->
+    <header class="top-area" id="home">
+        <div class="top-area-bg"></div>
+        <div class="header-top-area">
+            <!--MAINMENU AREA-->
+            <div id="mainmenu-area-sticky-wrapper" class="sticky-wrapper is-sticky" style="height: 64px;">
+                <div class="mainmenu-area" id="mainmenu-area" style="">
+                <div class="mainmenu-area-bg"></div>
+                <nav class="navbar">
+                    <div class="container">
+                        <div class="navbar-header">
+                            
+                            <a href="#home" class="navbar-brand">Resume</a>
+                            <ul id="nav" class="nav navbar-nav" style="white-space:nowrap;flex-direction: row;">
+                                <li class="active"><a href="#home">home</a></li>
+                                <li><a href="#about">About Me</a></li>
+                                <li><a href="#education">Education</a></li>
+                                <li><a href="#work">Experience</a></li>
+                                <li><a href="#portfolio">Portfolio</a></li>
+                                <li><a href="#contact">Contact</a></li>
+                            </ul>
+                        </div>
+                        <div class="collapse navbar-collapse bs-example-js-navbar-scrollspy">
+                            <div class="side-push-menu">
+                                <div class="push-menu-open-button"><i class="icofont icofont-justify-left"></i></div>
+                            </div>
+                            
+                        </div>
+                    </div>
+                </nav>
+            </div></div>
+            <!--END MAINMENU AREA END-->
+        </div>
+
+        <!--HOME STATIC TEXT AREA-->
+        <div class="welcome-text-area">
+            <div class="container">
+                <div class="row">
+                    <div class="col-md-12 col-lg-12 col-sm-12 col-xs-12">
+                        <div class="welcome-text" style="margin-top: -131.25px; opacity: -0.3125;">
+                            <h2>Welcome <span>TO</span></h2>
+                            <h3 class="writing-text">Sebastian's <span class="type-text"><i class="ti-placeholder" style="display:inline-block;width:0;line-height:0;overflow:hidden;">.</i><span style="display:inline;position:relative;font:inherit;color:inherit;" class="ti-container">Resume</span></span></h3>
+                            <!--<h1 class="hidden-xs">CV / Resume Portfolio</h1>-->
+                            <div class="call-to-action"><a href="img/resume.pdf" download=""><i class="icofont icofont-download-alt"></i> Download resume</a> <a href="#email-me"><i class="icofont icofont-email"></i> Send me a message</a></div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+            <div class="home-button">
+                <a href="#about"><i class="animated fadeInDown icofont icofont-bubble-down"></i></a>
+            </div>
+        </div>
+        <!--END HOME STATIC TEXT AREA-->
+    </header>
+    <!--END TOP AREA-->
+
+    <!--ABOUT AREA-->
+    <section class="about-area  padding-top" id="about">
+        <div class="container">
+            <div class="row">
+                <div class="col-md-5 col-lg-5 col-sm-12 col-xs-12 wow fadeIn" style="visibility: visible; animation-name: fadeIn;">
+                    <div class="about-content">
+                        <div class="area-title-and-description wow fadeIn" style="visibility: visible; animation-name: fadeIn;">
+                            <h2>About</h2>
+                        </div>
+                        <div class="about-img wow fadeIn hidden-lg hidden-md" style="visibility: visible; animation-name: fadeIn;">
+                            <img src="img/about/about_me.jpg" alt="">
+                        </div>
+                        <h4>Professional Profile</h4>
+                        <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam. </p>
+                        
+                        <div class="address-details">
+                            <ul>
+                                <li><strong>Name:</strong>Sebastian Patino</li>
+                                <li><strong>Email:</strong>patino.sebastian@gmail.com</li>
+                                <li><strong>Phone:</strong>(954) - 993-3541</li>
+                                <li><strong>Date of birth:</strong>25 April 1995</li>
+                                <li><strong>Address:</strong>1727 Lakelet Loop Oviedo, Fl 32765</li>
+                            </ul>
+                        </div>
+                        <div class="author-social-bookmark">
+                            <ul>
+                                <li><a href="https://www.facebook.com/sebastian.patino1"><i class="icofont icofont-social-facebook"></i></a></li>
+                                <li><a href="https://twitter.com/Da_Bolivian"><i class="icofont icofont-social-twitter"></i></a></li>
+                                <li><a href="https://www.linkedin.com/in/sebastian-patino-9abb7413b/"><i class="icofont icofont-social-linkedin"></i></a></li>
+                                <li><a href="https://github.com/patinos"><i class="icofont icofont-social-github"></i></a></li>
+                            </ul>
+                        </div>
+                    </div>
+                </div>
+                <div class="col-md-7 col-lg-6 col-lg-offset-1 wow fadeIn hidden-xs hidden-sm" style="visibility: visible; animation-name: fadeIn;">
+                    <div class="about-img">
+                        <img src="img/face.jpg" alt="">
+                    </div>
+                </div>
+            </div>
+        </div>
+    </section>
+    <!--ABOUT AREA END-->
+
+    <!--EDUCATION AREA-->
+    <section class="education-area  padding-top" id="education">
+        <div class="container">
+            <div class="row">
+                <div class="col-md-12 col-lg-12 col-sm-12 col-xs-12">
+                    <div class="area-title-and-description wow fadeIn" style="visibility: hidden; animation-name: none;">
+                        <h2>Education</h2>
+                        <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat. Duis aute irure dolor in reprehenderit in voluptate velit esse cillum dolore eu fugiat nulla pariatur.</p>
+                        <p>Sed ut perspiciatis unde omnis iste natus error sit voluptatem accusantium doloremque laudantium, totam rem aperiam, eaque ipsa quae ab illo inventore veritatis et quasi architecto beatae vitae dicta sunt explicabo. Nemo enim ipsam voluptatem quia voluptas sit aspernatur aut odit aut fugit, sed quia consequuntur magni dolores eos qui ratione voluptatem sequi nesciunt.</p>
+                    </div>
+                </div>
+            </div>
+            <div class="row">
+                <div class="col-md-12 col-lg-12 col-sm-12 col-xs-12">
+                    <div class="timeline-border"></div>
+                    <div class="row timeline">
+                        <div class="col-md-6 col-lg-6 col-sm-12 col-xs-12">
+                            <div class="single-timeline-content  wow fadeIn" style="visibility: hidden; animation-name: none;">
+                                <div class="timeline-icon"><i class="icofont icofont-hat-alt"></i></div>
+                                <div class="timeline-details">
+                                    <div class="title-and-icon">
+                                        <h3>Computer Science</h3>
+                                        <p><i class="icofont icofont-university"></i> University of Central Florida <span>- Bachelor's Degree</span></p>
+                                    </div>
+                                    <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit. Sed quis nisl scelerisque, luctus metus sed, dapibus nibh. In eget dictum ante. Suspendisse potenti. Integer sed lobortis dolor. Donec sed pharetra dolor. lacus. Sed malesuada magna vel ante congue faucibus. </p>
+                                </div>
+                            </div>
+                        </div>
+                        <div class="col-md-6 col-lg-6 col-sm-12 col-xs-12">
+                            <div class="single-timeline-content  wow fadeIn" style="visibility: hidden; animation-name: none;">
+                                <div class="timeline-icon"><i class="icofont icofont-hat-alt"></i></div>
+                                <div class="timeline-details">
+                                    <div class="title-and-icon">
+                                        <h3>Sports Business</h3>
+                                        <p><i class="icofont icofont-university"></i> University of Central Florida <span>- Minor</span></p>
+                                    </div>
+                                    <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit. Sed quis nisl scelerisque, luctus metus sed, dapibus nibh. In eget dictum ante. Suspendisse potenti. Integer sed lobortis dolor. Donec sed pharetra dolor. lacus. Sed malesuada magna vel ante congue faucibus. </p>
+                                </div>
+                            </div>
+                        </div>
+                        <div class="col-md-6 col-lg-6 col-sm-12 col-xs-12">
+                            <div class="single-timeline-content  wow fadeIn" style="visibility: hidden; animation-name: none;">
+                                <div class="timeline-icon"><i class="icofont icofont-web"></i></div>
+                                <div class="timeline-details">
+                                    <div class="title-and-icon">
+                                        <h3>Front End</h3>
+                                        <p><i class="icofont icofont-brainstorming"></i>Senior Design<span>- 1 Year Project</span></p>
+                                    </div>
+                                    <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit. Sed quis nisl scelerisque, luctus metus sed, dapibus nibh. In eget dictum ante. Suspendisse potenti. Integer sed lobortis dolor. Donec sed pharetra dolor. lacus. Sed malesuada magna vel ante congue faucibus. </p>
+                                </div>
+                            </div>
+                        </div>
+                        
+                        <div class="col-md-6 col-lg-6 col-sm-12 col-xs-12">
+                            <div class="single-timeline-content  wow fadeIn" style="visibility: hidden; animation-name: none;">
+                                <div class="timeline-icon"><i class="icofont icofont-database"></i></div>
+                                <div class="timeline-details">
+                                    <div class="title-and-icon">
+                                        <h3>Back End</h3>
+                                        <p><i class="icofont icofont-computer"></i> Database and Security <span>- 2 Courses</span></p>
+                                    </div>
+                                    <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit. Sed quis nisl scelerisque, luctus metus sed, dapibus nibh. In eget dictum ante. Suspendisse potenti. Integer sed lobortis dolor. Donec sed pharetra dolor. lacus. Sed malesuada magna vel ante congue faucibus. </p>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </section>
+    <!--EDUCATION AREA END-->
+
+    <!--Experience AREA-->
+    <section class="work-experience-area  padding-top" id="work">
+        <div class="container">
+            <div class="row">
+                <div class="col-md-12 col-lg-12 col-sm-12 col-xs-12">
+                    <div class="area-title-and-description wow fadeIn" style="visibility: hidden; animation-name: none;">
+                        <h2>Experience</h2>
+                        <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat. Duis aute irure dolor in reprehenderit in voluptate velit esse cillum dolore eu fugiat nulla pariatur.</p>
+                        <p>Sed ut perspiciatis unde omnis iste natus error sit voluptatem accusantium doloremque laudantium, totam rem aperiam, eaque ipsa quae ab illo inventore veritatis et quasi architecto beatae vitae dicta sunt explicabo. Nemo enim ipsam voluptatem quia voluptas sit aspernatur aut odit aut fugit, sed quia consequuntur magni dolores eos qui ratione voluptatem sequi nesciunt.</p>
+                    </div>
+                </div>
+            </div>
+            <div class="row">
+                <div class="col-md-12 col-lg-12 col-sm-12 col-xs-12">
+                    <div class="timeline-border"></div>
+                    <div class="row timeline">
+                        <div class="col-md-6 col-lg-6 col-sm-12 col-xs-12">
+                            <div class="single-timeline-content  wow fadeIn" style="visibility: hidden; animation-name: none;">
+                                <div class="timeline-icon"><i class="icofont icofont-taxi"></i></div>
+                                <div class="timeline-details">
+                                    <div class="title-and-icon">
+                                        <h3>L1BRE</h3>
+                                        <p><i class="icofont icofont-dashboard-web"></i> Data Analyst Intern <span>- May 2017-August 2017</span></p>
+                                    </div>
+                                    <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit. Sed quis nisl scelerisque, luctus metus sed, dapibus nibh. In eget dictum ante. Suspendisse potenti. Integer sed lobortis dolor. Donec sed pharetra dolor. lacus. Sed malesuada magna vel ante congue faucibus. </p>
+                                </div>
+                            </div>
+                        </div>
+                        <div class="col-md-6 col-lg-6 col-sm-12 col-xs-12">
+                            <div class="single-timeline-content  wow fadeIn" style="visibility: hidden; animation-name: none;">
+                                <div class="timeline-icon"><i class="icofont icofont-baseball"></i></div>
+                                <div class="timeline-details">
+                                    <div class="title-and-icon">
+                                        <h3>DaTraks</h3>
+                                        <p><i class="icofont icofont-computer"></i> Web Developer Intern <span>- August 2017 - Current</span></p>
+                                    </div>
+                                    <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit. Sed quis nisl scelerisque, luctus metus sed, dapibus nibh. In eget dictum ante. Suspendisse potenti. Integer sed lobortis dolor. Donec sed pharetra dolor. lacus. Sed malesuada magna vel ante congue faucibus. </p>
+                                </div>
+                            </div>
+                        </div>
+                        <div class="col-md-6 col-lg-6 col-sm-12 col-xs-12">
+                            <div class="single-timeline-content  wow fadeIn" style="visibility: hidden; animation-name: none;">
+                                <div class="timeline-icon"><i class="icofont icofont-university"></i></div>
+                                <div class="timeline-details">
+                                    <div class="title-and-icon">
+                                        <h3>Senior Design</h3>
+                                        <p><i class="icofont icofont-group-students"></i>University of Central Florida <span>- 1 Year Project</span></p>
+                                    </div>
+                                    <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit. Sed quis nisl scelerisque, luctus metus sed, dapibus nibh. In eget dictum ante. Suspendisse potenti. Integer sed lobortis dolor. Donec sed pharetra dolor. lacus. Sed malesuada magna vel ante congue faucibus. </p>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </section>
+    <!--EDUCATION AREA END-->
+
+    <!--SKILL AREA-->
+    <section class="skill-area  padding-top" id="skill">
+        <div class="container">
+            <div class="row">
+                <div class="col-md-12 col-lg-12 col-sm-12 col-xs-12">
+                    <div class="area-title-and-description wow fadeIn" style="visibility: hidden; animation-name: none;">
+                        <h2>Skills</h2>
+                        <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat. Duis aute irure dolor in reprehenderit in voluptate velit esse cillum dolore eu fugiat nulla pariatur.</p>
+                        <p>Sed ut perspiciatis unde omnis iste natus error sit voluptatem accusantium doloremque laudantium, totam rem aperiam, eaque ipsa quae ab illo inventore veritatis et quasi architecto beatae vitae dicta sunt explicabo. Nemo enim ipsam voluptatem quia voluptas sit aspernatur aut odit aut fugit, sed quia consequuntur magni dolores eos qui ratione voluptatem sequi nesciunt.</p>
+                    </div>
+                </div>
+            </div>
+            <div class="row">
+                <div class="col-md-6 col-lg-6 col-sm-12 col-xs-12">
+                    <div class="skillst wow fadeIn" style="visibility: hidden; animation-name: none;">
+                        <div class="skillbar" data-percent="80%">
+                            <div class="skill-info">
+                                <div class="title">HTML/css/javascript</div>
+                                <div class="count"></div>
+                            </div>
+                            <div class="skillbarin">
+                                <div class="count-bar"></div>
+                            </div>
+                        </div>
+                        <div class="skillbar" data-percent="80%">
+                            <div class="skill-info">
+                                <div class="title">c#/sql</div>
+                                <div class="count"></div>
+                            </div>
+                            <div class="skillbarin">
+                                <div class="count-bar"></div>
+                            </div>
+                        </div>
+                        <div class="skillbar" data-percent="90%">
+                            <div class="skill-info">
+                                <div class="title">java</div>
+                                <div class="count"></div>
+                            </div>
+                            <div class="skillbarin">
+                                <div class="count-bar"></div>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+                <div class="col-md-6 col-lg-6 col-sm-12 col-xs-12">
+                    <div class="skillst wow fadeIn" style="visibility: hidden; animation-name: none;">
+                        <div class="skillbar" data-percent="85%">
+                            <div class="skill-info">
+                                <div class="title">.net programming</div>
+                                <div class="count"></div>
+                            </div>
+                            <div class="skillbarin">
+                                <div class="count-bar"></div>
+                            </div>
+                        </div>
+                        <div class="skillbar" data-percent="95%">
+                            <div class="skill-info">
+                                <div class="title">object oriented programming</div>
+                                <div class="count"></div>
+                            </div>
+                            <div class="skillbarin">
+                                <div class="count-bar"></div>
+                            </div>
+                        </div>
+                        <div class="skillbar" data-percent="90%">
+                            <div class="skill-info">
+                                <div class="title">git</div>
+                                <div class="count"></div>
+                            </div>
+                            <div class="skillbarin">
+                                <div class="count-bar"></div>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+            <div class="row">
+                <div class="col-md-12 col-lg-12 col-sm-12 col-xs-12">
+                    <div class="sub-hidding text-center">
+                        <div class="sub-hidding-icon"><i class="icofont icofont-brainstorming"></i></div>
+                        <h3>Knowledge</h3>
+                    </div>
+                </div>
+            </div>
+            <div class="row">
+                <div class="col-md-4 col-lg-4 col-sm-6 col-xs-12">
+                    <div class="knowledge-widget wow fadeIn" style="visibility: hidden; animation-name: none;">
+                        <div class="single-knowledge">
+                            <p><i class="icofont icofont-users"></i> Agile Environment</p>
+                            <p><i class="icofont icofont-speech-comments"></i> Bilingual</p>
+                            <p><i class="icofont icofont-computer"></i> AJAX </p>
+                            <p><i class="icofont icofont-computer"></i> Razor</p>
+                        </div>
+                    </div>
+                </div>
+                <div class="col-md-4 col-lg-4 col-sm-6 col-xs-12">
+                    <div class="knowledge-widget wow fadeIn" style="visibility: hidden; animation-name: none;">
+                        <div class="single-knowledge">
+                            <p><i class="icofont icofont-brainstorming"></i> Problem Solving Mentality</p>
+                            <p><i class="icofont icofont-business-man"></i> Professional Millennial</p>
+                            <p><i class="icofont icofont-spreadsheet"></i> Analytic Skills</p>
+                            <p><i class="icofont icofont-brainstorming"></i> Quick Thinker</p>
+                        </div>
+                    </div>
+                </div>
+                <div class="col-md-4 col-lg-4 col-sm-6 col-xs-12">
+                    <div class="knowledge-widget wow fadeIn" style="visibility: hidden; animation-name: none;">
+                        <div class="single-knowledge">
+                            <p><i class="icofont icofont-world"></i> Multicultural</p>
+                            <p><i class="icofont icofont-ssl-security"></i> Security</p>
+                            <p><i class="icofont icofont-gears"></i> Account Management</p>
+                            <p><i class="icofont icofont-brainstorming"></i> An Itch To Learn</p>
+                        </div>
+                    </div>
+                </div>
+                
+            </div>
+        </div>
+    </section>
+    <!--SKILL AREA END-->
+
+    <!--PORTFOLIO AREA-->
+    <section class="portfolio-gallery-area padding-top" id="portfolio">
+        <div class="container">
+            <div class="row">
+                <div class="col-md-12 col-lg-12 col-sm-12 col-xs-12">
+                    <div class="area-title-and-description wow fadeIn" style="visibility: hidden; animation-name: none;">
+                        <h2>Portfolio</h2>
+                        <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat. Duis aute irure dolor in reprehenderit in voluptate velit esse cillum dolore eu fugiat nulla pariatur.</p>
+                        <p>Sed ut perspiciatis unde omnis iste natus error sit voluptatem accusantium doloremque laudantium, totam rem aperiam, eaque ipsa quae ab illo inventore veritatis et quasi architecto beatae vitae dicta sunt explicabo. Nemo enim ipsam voluptatem quia voluptas sit aspernatur aut odit aut fugit, sed quia consequuntur magni dolores eos qui ratione voluptatem sequi nesciunt.</p>
+                    </div>
+                </div>
+            </div>
+            <div class="row gallery-list">
+                <div class="col-md-12 col-lg-12 col-sm-12 col-xs-12">
+                    <div class="gallary-slider owl-carousel owl-theme owl-loaded owl-responsive-600">
+                        
+                        
+                        
+                    <div class="owl-stage-outer">
+                        <div class="owl-stage" style="transform: translate3d(-750px, 0px, 0px); transition: 0s; width: 2625px;">
+                            <div class="owl-item cloned" style="width: 345px; margin-right: 30px;">
+                                <div class="single-gallery-slide">
+                                    <div class="col-md-6 col-lg-6 col-sm-12 col-xs-12">
+                                        <div class="single-gallery wow fadeIn" style="visibility: hidden; animation-name: none;">
+                                            <div class="gallery-img">
+                                                <img src="img/OC_Home.jpg" alt="">
+                                            </div>
+                                            <div class="gallery-overlay">
+                                                <a class="gallery-popup" href="img/OC_Home.jpg" data-effect="mfp-zoom-out"><img src="img/gallary/gallary_view_icon.png" alt=""></a>
+                                            </div>
+                                        </div>
+                                    </div>
+                                    <div class="col-md-6 col-lg-6 col-sm-12 col-xs-12">
+                                        <div class="single-gallery wow fadeIn" style="visibility: hidden; animation-name: none;">
+                                            <div class="gallery-img">
+                                                <img src="img/OC_Login.jpg" alt="">
+                                            </div>
+                                            <div class="gallery-overlay">
+                                                <a class="gallery-popup" href="img/OC_Login.jpg" data-effect="mfp-zoom-out"><img src="img/gallary/gallary_view_icon.png" alt=""></a>
+                                            </div>
+                                        </div>
+                                    </div>
+                                </div>
+                            </div>
+                            <div class="owl-item cloned" style="width: 345px; margin-right: 30px;"><div class="single-gallery-slide">
+                                <div class="col-md-6 col-lg-6 col-sm-12 col-xs-12">
+                                    <div class="single-gallery wow fadeIn" style="visibility: hidden; animation-name: none;">
+                                        <div class="gallery-img">
+                                            <img src="img/OC_Reports.jpg" alt="">
+                                        </div>
+                                        <div class="gallery-overlay">
+                                            <a class="gallery-popup" href="img/OC_Reports.jpg" data-effect="mfp-zoom-out"><img src="img/gallary/gallary_view_icon.png" alt=""></a>
+                                        </div>
+                                    </div>
+                                </div>
+                                <div class="col-md-6 col-lg-6 col-sm-12 col-xs-12">
+                                    <div class="single-gallery wow fadeIn" style="visibility: hidden; animation-name: none;">
+                                        <div class="gallery-img">
+                                            <img src="img/OC_Predictor.jpg" alt="">
+                                        </div>
+                                        <div class="gallery-overlay">
+                                            <a class="gallery-popup" href="img/OC_Predictor.jpg" data-effect="mfp-zoom-out"><img src="img/gallary/gallary_view_icon.png" alt=""></a>
+                                        </div>
+                                    </div>
+                                </div>
+                            </div>
+                        </div>
+                        <div class="owl-item active" style="width: 345px; margin-right: 30px;"><div class="single-gallery-slide">
+                            <div class="col-md-6 col-lg-6 col-sm-12 col-xs-12">
+                                <div class="single-gallery wow fadeIn" style="visibility: hidden; animation-name: none;">
+                                    <div class="gallery-img">
+                                        <img src="img/OC_Home.jpg" alt="">
+                                    </div>
+                                    <div class="gallery-overlay">
+                                        <a class="gallery-popup" href="img/OC_Home.jpg" data-effect="mfp-zoom-out"><img src="img/gallary/gallary_view_icon.png" alt=""></a>
+                                    </div>
+                                </div>
+                            </div>
+                            <div class="col-md-6 col-lg-6 col-sm-12 col-xs-12">
+                                <div class="single-gallery wow fadeIn" style="visibility: hidden; animation-name: none;">
+                                    <div class="gallery-img">
+                                        <img src="img/OC_Home.jpg" alt="">
+                                    </div>
+                                    <div class="gallery-overlay">
+                                        <a class="gallery-popup" href="img/OC_Home.jpg" data-effect="mfp-zoom-out"><img src="img/gallary/gallary_view_icon.png" alt=""></a>
+                                    </div>
+                                </div>
+                            </div>
+                        </div></div><div class="owl-item active" style="width: 345px; margin-right: 30px;"><div class="single-gallery-slide">
+                            <div class="col-md-6 col-lg-6 col-sm-12 col-xs-12">
+                                <div class="single-gallery wow fadeIn" style="visibility: hidden; animation-name: none;">
+                                    <div class="gallery-img">
+                                        <img src="img/OC_Home.jpg" alt="">
+                                    </div>
+                                    <div class="gallery-overlay">
+                                        <a class="gallery-popup" href="img/OC_Home.jpg" data-effect="mfp-zoom-out"><img src="img/gallary/gallary_view_icon.png" alt=""></a>
+                                    </div>
+                                </div>
+                            </div>
+                            <div class="col-md-6 col-lg-6 col-sm-12 col-xs-12">
+                                <div class="single-gallery wow fadeIn" style="visibility: hidden; animation-name: none;">
+                                    <div class="gallery-img">
+                                        <img src="img/gallary/4.jpg" alt="">
+                                    </div>
+                                    <div class="gallery-overlay">
+                                        <a class="gallery-popup" href="img/OC_Home.jpg" data-effect="mfp-zoom-out"><img src="img/gallary/gallary_view_icon.png" alt=""></a>
+                                    </div>
+                                </div>
+                            </div>
+                        </div></div><div class="owl-item" style="width: 345px; margin-right: 30px;"><div class="single-gallery-slide">
+                            <div class="col-md-6 col-lg-6 col-sm-12 col-xs-12">
+                                <div class="single-gallery wow fadeIn" style="visibility: hidden; animation-name: none;">
+                                    <div class="gallery-img">
+                                        <img src="img/OC_Home.jpg" alt="">
+                                    </div>
+                                    <div class="gallery-overlay">
+                                        <a class="gallery-popup" href="img/OC_Home.jpg" data-effect="mfp-zoom-out"><img src="img/gallary/gallary_view_icon.png" alt=""></a>
+                                    </div>
+                                </div>
+                            </div>
+                            <div class="col-md-6 col-lg-6 col-sm-12 col-xs-12">
+                                <div class="single-gallery wow fadeIn" style="visibility: hidden; animation-name: none;">
+                                    <div class="gallery-img">
+                                        <img src="img/OC_Home.jpg" alt="">
+                                    </div>
+                                    <div class="gallery-overlay">
+                                        <a class="gallery-popup" href="img/OC_Home.jpg" data-effect="mfp-zoom-out"><img src="img/gallary/gallary_view_icon.png" alt=""></a>
+                                    </div>
+                                </div>
+                            </div>
+                        </div></div><div class="owl-item cloned" style="width: 345px; margin-right: 30px;"><div class="single-gallery-slide">
+                            <div class="col-md-6 col-lg-6 col-sm-12 col-xs-12">
+                                <div class="single-gallery wow fadeIn" style="visibility: hidden; animation-name: none;">
+                                    <div class="gallery-img">
+                                        <img src="img/OC_Home.jpg" alt="">
+                                    </div>
+                                    <div class="gallery-overlay">
+                                        <a class="gallery-popup" href="img/OC_Home.jpg" data-effect="mfp-zoom-out"><img src="img/gallary/gallary_view_icon.png" alt=""></a>
+                                    </div>
+                                </div>
+                            </div>
+                            <div class="col-md-6 col-lg-6 col-sm-12 col-xs-12">
+                                <div class="single-gallery wow fadeIn" style="visibility: hidden; animation-name: none;">
+                                    <div class="gallery-img">
+                                        <img src="img/OC_Home.jpg" alt="">
+                                    </div>
+                                    <div class="gallery-overlay">
+                                        <a class="gallery-popup" href="img/OC_Home.jpg" data-effect="mfp-zoom-out"><img src="img/gallary/gallary_view_icon.png" alt=""></a>
+                                    </div>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                        <div class="owl-item cloned" style="width: 345px; margin-right: 30px;"><div class="single-gallery-slide">
+                            <div class="col-md-6 col-lg-6 col-sm-12 col-xs-12">
+                                <div class="single-gallery wow fadeIn" style="visibility: hidden; animation-name: none;">
+                                    <div class="gallery-img">
+                                        <img src="img/OC_Home.jpg" alt="">
+                                    </div>
+                                    <div class="gallery-overlay">
+                                        <a class="gallery-popup" href="img/OC_Home.jpg" data-effect="mfp-zoom-out"><img src="img/gallary/gallary_view_icon.png" alt=""></a>
+                                    </div>
+                                </div>
+                            </div>
+                            <div class="col-md-6 col-lg-6 col-sm-12 col-xs-12">
+                                <div class="single-gallery wow fadeIn" style="visibility: hidden; animation-name: none;">
+                                    <div class="gallery-img">
+                                        <img src="img/OC_Home.jpg" alt="">
+                                    </div>
+                                    <div class="gallery-overlay">
+                                        <a class="gallery-popup" href="img/OC_Home.jpg" data-effect="mfp-zoom-out"><img src="img/gallary/gallary_view_icon.png" alt=""></a>
+                                    </div>
+                                </div>
+                            </div>
+                        </div></div></div></div><div class="owl-controls"><div class="owl-nav"><div class="owl-prev" style=""><i class="icofont icofont-bubble-left"></i></div><div class="owl-next" style=""><i class="icofont icofont-bubble-right"></i></div></div><div class="owl-dots" style=""><div class="owl-dot active"><span></span></div><div class="owl-dot"><span></span></div></div></div></div>
+                </div>
+            </div>
+        </div>
+    </section>
+    <!--PORTFOLIO AREA END-->
+
+    <!--CONTACT AREA-->
+    <section class="contact-area padding-top" id="contact">
+        <div class="container">
+            <div class="row">
+                <div class="col-md-12 col-lg-12 col-sm-12 col-xs-12">
+                    <div class="area-title-and-description wow fadeIn" style="visibility: hidden; animation-name: none;">
+                        <h2>Contact</h2>
+                        <p>For any questions or business inquires.</p>
+                    </div>
+                </div>
+            </div>
+            <div class="row">
+                <div class="col-md-4 col-lg-4 col-sm-4 col-xs-12">
+                    <div class="single-contact wow fadeIn" style="visibility: hidden; animation-name: none;">
+                        <div class="contact-icon"><i class="icofont icofont-ui-map"></i></div>
+                        <div class="contact-details">
+                            <p><strong>Sebastian Patino</strong></p>
+                            <address>
+                                1727 Lakelet Loop <br>Oviedo, FL 32765
+                            </address>
+                        </div>
+                    </div>
+                </div>
+                <div class="col-md-4 col-lg-4 col-sm-4 col-xs-12">
+                    <div class="single-contact wow fadeIn" style="visibility: hidden; animation-name: none;">
+                        <div class="contact-icon"><i class="icofont icofont-phone"></i></div>
+                        <div class="contact-details">
+                            <p><strong>phone</strong></p>
+                            <p><a href="callto:+8801744430440">(954) 993 3541</a></p>
+                        </div>
+                    </div>
+                </div>
+                <div class="col-md-4 col-lg-4 col-sm-4 col-xs-12">
+                    <div class="single-contact wow fadeIn" style="visibility: hidden; animation-name: none;">
+                        <div class="contact-icon"><i class="icofont icofont-envelope"></i></div>
+                        <div class="contact-details">
+                            <p><strong>Email</strong></p>
+                            <p><a href="mailto:mehedidb@gmail.com">patino.sebastian@gmail.com</a></p>
+                        </div>
+                    </div>
+                </div>
+            </div>
+            <div class="row">
+                <div class="col-md-12 col-lg-12 col-sm-12 col-xs-12">
+                    <div class="sub-hidding text-center wow fadeIn" id="email-me" style="visibility: hidden; animation-name: none;">
+                        <div class="sub-hidding-icon"><i class="icofont icofont-email"></i></div>
+                        <h3>Drop Me A Line</h3>
+                    </div>
+                </div>
+            </div>
+            <div class="row">
+                <div class="col-md-12 col-lg-12 col-sm-12 col-xs-12">
+                    <div class="contact-form-area wow fadeIn" style="visibility: hidden; animation-name: none;">
+                        <div class="contact-form">
+                            <form action="process.php" id="contact-form" method="post">
+                                <div class="row">
+                                    <div class="col-md-6 col-lg-6 col-sm-12 col-xs-12">
+                                        <div class="form-group" id="name-field">
+                                            <div class="form-input">
+                                                <input type="text" class="form-control" id="form-name" name="form-name" placeholder="Name.." required="">
+                                            </div>
+                                        </div>
+                                        <div class="form-group" id="email-field">
+                                            <div class="form-input">
+                                                <input type="email" class="form-control" id="form-email" name="form-email" placeholder="Email.." required="">
+                                            </div>
+                                        </div>
+                                        <div class="form-group" id="phone-field">
+                                            <div class="form-input">
+                                                <input type="text" class="form-control" id="form-phone" name="form-phone" placeholder="Subject">
+                                            </div>
+                                        </div>
+                                    </div>
+                                    <div class="col-md-6 col-lg-6 col-sm-12 col-xs-12">
+                                        <div class="form-group" id="message-field">
+                                            <div class="form-input">
+                                                <textarea class="form-control" rows="6" id="form-message" name="form-message" placeholder="Your Message Here..." required=""></textarea>
+                                            </div>
+                                        </div>
+                                    </div>
+                                    <div class="col-md-12 col-lg-12 col-sm-12 col-xs-12">
+                                        <div class="form-group text-center">
+                                            <button type="submit">SEND MESSAGE</button>
+                                        </div>
+                                    </div>
+                                </div>
+                            </form>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </section>
+    <!--CONTACT AREA END-->
+
+    <!--FOOER AREA-->
+    <div class="footer-area wow fadeIn" style="visibility: hidden; animation-name: none;">
+        <div class="container">
+            <div class="row">
+                <div class="col-md-12 col-lg-12 col-sm-12 col-xs-12">
+                    <div class="footer-copyright text-center">
+                        <div class="footer-copyright-social-bookmark">
+                            <ul>
+                                <li><a href="#"><i class="icofont icofont-social-facebook"></i></a></li>
+                                <li><a href="#"><i class="icofont icofont-social-twitter"></i></a></li>
+                                <li><a href="#"><i class="icofont icofont-social-pinterest"></i></a></li>
+                                <li><a href="#"><i class="icofont icofont-social-google-plus"></i></a></li>
+                                <li><a href="#"><i class="icofont icofont-social-dribbble"></i></a></li>
+                                <li><a href="#"><i class="icofont icofont-social-behance"></i></a></li>
+                            </ul>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </div>
+    <!--FOOER AREA END-->
+
+
+    <!--====== SCRIPTS JS ======-->
+    <script src="js/jquery-1.12.4.min.js"></script>
+    <script src="js/bootstrap.min.js"></script>
+
+    <!--====== PLUGINS JS ======-->
+    <script src="js/jquery.easing.1.3.js"></script>
+    <script src="js/jquery-migrate-1.2.1.min.js"></script>
+    <script src="js/jquery.appear.js"></script>
+    <script src="js/jquery.nicescroll.min.js"></script>
+    <script src="js/typeit.min.js"></script>
+    <script src="js/owl.carousel.min.js"></script>
+    <script src="js/jquery.magnific-popup.min.js"></script>
+    <script src="js/wow.min.js"></script>
+    <script src="js/contact-form.js"></script>
+    <script src="js/jquery.sticky.js"></script>
+
+    <!--===== ACTIVE JS=====-->
+    <script src="js/main.js"></script><div id="ascrail2000" class="nicescroll-rails nicescroll-rails-vr" style="width: 12px; z-index: 9999; cursor: default; position: fixed; top: 0px; left: 1186px; height: 676px; touch-action: none; display: block; opacity: 0;"><div class="nicescroll-cursors" style="position: relative; top: 0px; float: right; width: 10px; height: 404px; background-color: rgb(66, 66, 66); border: 1px solid rgb(255, 255, 255); background-clip: padding-box; border-radius: 5px; touch-action: none;"></div></div><div id="ascrail2000-hr" class="nicescroll-rails nicescroll-rails-hr" style="height: 12px; z-index: 9999; top: 664px; left: 898px; position: fixed; cursor: default; display: none; width: 288px; opacity: 0;"><div class="nicescroll-cursors" style="position: absolute; top: 0px; height: 10px; width: 300px; background-color: rgb(66, 66, 66); border: 1px solid rgb(255, 255, 255); background-clip: padding-box; border-radius: 5px;"></div></div>
+
+
+    
+
+
+
+</body></html>
