@@ -106,31 +106,7 @@ jQuery(document).on('ready', function ($) {
     });
 
 
-    /*---------------------------
-        GALLERY SLIDER
-    -----------------------------*/
-    $('.gallary-slider').owlCarousel({
-        merge: true,
-        smartSpeed: 1000,
-        loop: true,
-        nav: true,
-        navText: ['<i class="icofont icofont-bubble-left"></i>', '<i class="icofont icofont-bubble-right"></i>'],
-        autoplay: false,
-        autoplayTimeout: 2000,
-        margin: 30,
-        responsiveClass: true,
-        responsive: {
-            0: {
-                items: 1
-            },
-            600: {
-                items: 2
-            },
-            1000: {
-                items: 3
-            }
-        }
-    });
+
 
 
     /*------------------------------
