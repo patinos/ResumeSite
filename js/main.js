@@ -30,7 +30,7 @@ jQuery(document).on('ready', function ($) {
         HOME TYPE TEXT
     ----------------------------*/
     $('.type-text').typeIt({
-        strings: ['Website', 'CV', 'Resume', 'Portfolio'],
+        strings: ['Website', 'Resume'],
         breakLines: false,
         autoStart: true,
         cursor: false,
@@ -83,12 +83,7 @@ jQuery(document).on('ready', function ($) {
         }
 
 
-        // scroll and fade header text
-        var scrollPosition = jQuery(this).scrollTop();
-        jQuery('.welcome-text').css({
-            'margin-top': -(scrollPosition / 4) + "px",
-            'opacity': 1 - (scrollPosition / 400)
-        });
+    
     });
 
 
